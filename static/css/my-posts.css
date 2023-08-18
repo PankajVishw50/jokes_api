@@ -39,3 +39,17 @@
     font-family: 'Inter', sans-serif;
 
 }
+
+@media screen and (max-width:700px) {
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        flex: none;
+        margin-bottom: 25px;
+    }
+    .right{
+        flex: none;
+    }
+    
+}
