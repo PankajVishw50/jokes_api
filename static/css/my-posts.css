@@ -1,0 +1,41 @@
+
+
+.content{
+    display: flex;
+    min-height: 100vh;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+}
+.left h1{
+    font-family: 'Borel', cursive;
+}
+
+.info-container{
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.info-container .design{
+    color: greenyellow;
+}
+
+.right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joke-container{
+    width: 100%;
+    margin: 3px 0;
+    background: #FFE17B;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+
+}

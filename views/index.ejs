@@ -1,0 +1,41 @@
+
+<%- include("partials/headers.ejs") %>
+<title>Welcome Page</title>
+
+<link rel="stylesheet" href="/css/index.css">
+<link rel="stylesheet" href="/css/home-media.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <%- include("partials/nav.ejs") %>
+
+        <div class="content">
+            <div class="left">
+                <h1>Are you ready to laugh?</h1>
+
+                <form action="/api/jokes/random" id="joke-form">
+                    <input type="submit" value="Get random joke" id="submit-btn">
+                </form>
+            </div>
+            
+            <div class="right">
+                            
+                <div class="joke-container">
+                    <p id="joke-space"></p>
+                </div>    
+
+
+            </div>
+
+        </div>   
+
+    </div>
+
+<script src="/js/base.js"></script>
+<script src="/js/responsiveNavbar.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/logout.js"></script>
+</body>
+

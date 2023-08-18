@@ -1,0 +1,36 @@
+
+<%- include("partials/headers.ejs") %>
+<title>My jokes</title>
+
+<link rel="stylesheet" href="/css/my-posts.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <%- include("partials/nav.ejs") %>
+
+        <div class="content">
+            <div class="left">
+                <h1>My Published Jokes</h1>
+
+                <div class="info-container">
+                    <p><span class="design">@ </span><span class="name"></span></p>
+                </div>
+            </div>
+
+            <div class="right" id="jokes-container">    
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+<script src="/js/base.js"></script>
+<script src="/js/logout.js"></script>
+<script src="/js/my-posts.js"></script>
+</body>
+</html>

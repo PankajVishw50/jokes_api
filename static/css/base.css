@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    /* background: #FFE17B; */
+    min-height: 100vh;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+
