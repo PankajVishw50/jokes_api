@@ -12,7 +12,9 @@ nav{
 nav h3{
     font-family: "Roboto", sans-serif;
 }
-
+nav h3 a{
+    color: white;
+}
 .menu{
     font-size: 13px;
     display: flex;
