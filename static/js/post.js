@@ -34,8 +34,6 @@ async function postJoke(event){
         }catch(err){
             return alert("Something went wrong");
         }
-    }else{
-        return alertLogin();
     }
 
 }
